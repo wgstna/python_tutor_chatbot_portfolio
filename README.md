@@ -23,13 +23,21 @@ The Python Tutor Chatbot was developed to provide an accessible and interactive 
 ## 📁 Project Structure
 
 ├── static/                  # CSS and static assets
+
 ├── templates/               # HTML templates
+
 ├── assets/                  # Images of the live demo
+
 ├── app.py                   # Flask application
+
 ├── chatbot.py               # Chatbot logic and response generation
+
 ├── download_nltk_data.py    # Script to download necessary NLTK data
+
 ├── requirements.txt         # Python dependencies
+
 ├── Procfile                 # Heroku deployment configuration
+
 └── README.md                # Project documentation
 
 ## Key Features
@@ -51,26 +59,35 @@ To run this project locally:
 
 Clone the repository:
 
-
+```
 git clone https://github.com/wgstna/python_tutor_chatbot_portfolio.git
 
 cd python_tutor_chatbot_portfolio
+```
 
 Install dependencies:
 
+```
 pip install -r requirements.txt
+```
 
 Download NLTK data:
 
+```
 python download_nltk_data.py
+```
 
 Run the application:
 
+```
 python app.py
+```
 
 Access the chatbot:
 
+```
 Open your browser and navigate to http://localhost:5000
+```
 
 ## License
 
