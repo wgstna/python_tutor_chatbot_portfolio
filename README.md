@@ -51,7 +51,9 @@ To run this project locally:
 
 Clone the repository:
 
+
 git clone https://github.com/wgstna/python_tutor_chatbot_portfolio.git
+
 cd python_tutor_chatbot_portfolio
 
 Install dependencies:
